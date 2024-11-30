@@ -3,15 +3,21 @@ import { Link } from "react-router-dom";
 import LoginButton from "../Components/LoginButton";
 import LogoutButton from "../Components/LogoutButton";
 import { useAuth0 } from "@auth0/auth0-react";
+import Logo from "../Logo.png";
 
 function Header() {
   const { isAuthenticated } = useAuth0();
+  
+  const logoStyle = {
+    height: '50px',
+    objectFit: 'contain',
+    marginLeft: '20px'
+  };
+
   return (
     <ul className="nav-list">
       <li className="nav-item">
-        <Link to="/">
-          <h1>Ride2Vote</h1>
-        </Link>
+        <img src={Logo} alt="Ride2Vote Logo" style={logoStyle} />
       </li>
       <li className="nav-item">
         <Link to="/quiz">Quizzes</Link>
