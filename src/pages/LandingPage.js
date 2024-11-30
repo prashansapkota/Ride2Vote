@@ -39,7 +39,7 @@ function LandingPage() {
   return (
     <div className="LandingPage">
       <header className="LandingPage-header">
-        <h1>Welcome to Car-Polling</h1>
+        <h1>Welcome to Ride2Vote</h1>
         <p>
           Engage in protecting election integrity by participating in our
           car-pooling initiative.

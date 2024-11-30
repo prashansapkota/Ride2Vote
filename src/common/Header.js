@@ -10,7 +10,7 @@ function Header() {
     <ul className="nav-list">
       <li className="nav-item">
         <Link to="/">
-          <h1>Car-Polling</h1>
+          <h1>Ride2Vote</h1>
         </Link>
       </li>
       <li className="nav-item">

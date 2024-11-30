@@ -23,7 +23,7 @@ function SignUpPage() {
   return (
     <div className="SignUpPage">
       <header className="SignUpPage-header">
-        <h1>Sign Up for Car-Polling</h1>
+        <h1>Sign Up for Ride2Vote</h1>
         <p>Please complete the following steps to sign up:</p>
       </header>
 
