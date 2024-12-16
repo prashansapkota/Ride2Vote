@@ -15,7 +15,7 @@ It's no longer just an idea but a movement that started as an effort to bridge t
 
 ---
 ## What it Does
-Ride2Vote connects voters who need rides to polling stations with volunteer drivers in their community, making democratic participation accessible to everyone.
+Ride2Vote connects voters who need rides to polling stations with volunteer drivers in their community, making civic participation accessible to everyone.
 
 ### For Voters
 - **Easy Ride Requests**: Simple form to request transportation to polling locations
