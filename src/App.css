@@ -1,17 +1,29 @@
 :root {
-  /* Modern color scheme */
-  --primary-red: #FF3B30;
-  --primary-black: #1A1A1A;
-  --primary-gray: #6C757D;
-  --primary-white: #FFFFFF;
-  --background-light: #F8F9FA;
-  --shadow-color: rgba(0, 0, 0, 0.1);
-  --black: #1a1a1a;
-  --dark-gray: #2c2c2c;
-  --medium-gray: #4a4a4a;
-  --light-gray: #808080;
-  --lighter-gray: #e0e0e0;
-  --white: #ffffff;
+  /* Updated color scheme with patriotic colors */
+  --primary-blue: #102B4E;     /* Deep Navy Blue */
+  --secondary-blue: #1C4C8C;   /* Royal Blue */
+  --accent-red: #B22234;       /* Traditional American Red */
+  --light-red: #FF4B5C;        /* Bright Red for highlights */
+  --pure-white: #FFFFFF;       /* Pure White */
+  --off-white: #F5F6FA;        /* Slightly off-white for backgrounds */
+  --star-gold: #FFD700;        /* Gold for special elements */
+  --dark-navy: #041E42;        /* Darkest Blue */
+  
+  /* Neutral colors */
+  --gray-100: #F8F9FA;
+  --gray-200: #E9ECEF;
+  --gray-300: #DEE2E6;
+  --gray-400: #CED4DA;
+  --gray-500: #ADB5BD;
+  
+  /* Shadow variables */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  
+  /* Gradient definitions */
+  --gradient-primary: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+  --gradient-accent: linear-gradient(135deg, var(--accent-red), var(--light-red));
 }
 
 /* Update card container styles */
@@ -90,4 +102,155 @@ button:hover {
 .nav-item a:hover,
 .nav-item button:hover {
   animation: subtle-glow 2s infinite;
+}
+
+/* Add these styles for the background logo */
+.background-logo {
+  filter: grayscale(100%); /* Makes it monochrome */
+}
+
+/* Update content positioning */
+.LandingPage-content {
+  position: relative;
+  z-index: 2;
+  background: transparent;
+}
+
+/* Add a subtle animation for the background logo */
+@keyframes subtle-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.background-logo {
+  animation: subtle-rotate 240s linear infinite;
+}
+
+/* Ensure cards stand out against the background */
+.main-actions > div {
+  background: var(--pure-white);
+  border: 1px solid var(--gray-200);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Add these new styles */
+
+/* Modern gradient backgrounds */
+.gradient-bg {
+  background: var(--gradient-primary);
+}
+
+/* Glass morphism effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+/* Hover animations */
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Enhanced button styles */
+.modern-button {
+  background: var(--gradient-primary) !important;
+  color: var(--pure-white) !important;
+  border: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.modern-button:hover {
+  background: var(--gradient-accent) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Card animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Enhanced form styles */
+.modern-form input,
+.modern-form select {
+  background: var(--off-white);
+  border: 1px solid var(--gray-300);
+  color: var(--dark-navy);
+}
+
+.modern-form input:focus,
+.modern-form select:focus {
+  border-color: var(--secondary-blue);
+  box-shadow: 0 0 0 2px rgba(28, 76, 140, 0.2);
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.loading-pulse {
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+/* Add new accent styles */
+.accent-text {
+  color: var(--accent-red);
+}
+
+.gold-star {
+  color: var(--star-gold);
+}
+
+/* Add patriotic accents */
+.patriotic-border {
+  border-bottom: 4px solid var(--accent-red);
+}
+
+/* Update button hover states */
+button:hover {
+  background: var(--gradient-accent);
+}
+
+/* Add these styles */
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.modern-button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.footer button:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
 }

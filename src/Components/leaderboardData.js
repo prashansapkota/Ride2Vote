@@ -2,7 +2,7 @@ const leaderboardData = {
   riders: [
     {
       id: 1,
-      name: "John Doe",
+      name: "Nishar Miya",
       location: "5 miles",
       age: 28,
       participationBadge: 5,
@@ -29,7 +29,7 @@ const leaderboardData = {
     },
     {
       id: 4,
-      name: "Jill Seagers",
+      name: "Chirag Dhungana",
       location: "15 miles",
       age: 48,
       participationBadge: 5,
@@ -38,7 +38,7 @@ const leaderboardData = {
     },
     {
       id: 5,
-      name: "Gloria Pang",
+      name: "Prabesh Aryal",
       location: "17 miles",
       age: 58,
       participationBadge: 5,
@@ -67,7 +67,7 @@ const leaderboardData = {
   drivers: [
     {
       id: 1,
-      name: "Mike Johnson",
+      name: "Prashan Sapkota",
       location: "3 miles",
       age: 45,
       participationBadge: 6,
@@ -76,7 +76,7 @@ const leaderboardData = {
     },
     {
       id: 2,
-      name: "Emily Davis",
+      name: "Aastika Banstola",
       location: "8 miles",
       age: 27,
       participationBadge: 7,

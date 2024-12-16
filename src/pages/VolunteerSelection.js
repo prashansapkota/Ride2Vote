@@ -3,7 +3,7 @@ import React from "react";
 function VolunteerSelection() {
   const tablesData = [
     {
-      name: "John Doe",
+      name: "Nishar Miya",
       passengers: 2,
       pickupLocation: "Main Street",
       destination: "Park Avenue",

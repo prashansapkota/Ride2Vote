@@ -1,69 +1,99 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
+import { sharedStyles } from "../styles/SharedStyles";
+import { FaCar, FaUserFriends } from 'react-icons/fa';
 
 function ProfileForm() {
-
-    const [agreed, setAgreed] = useState(false);
     const navigate = useNavigate();
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        agreed: false
+    });
 
-          const handleDriverSignup = () => {
-            if(!agreed) {
-                alert("Please complete all required fields.")
-              }
-            else{
-                navigate('/driverprofile');
-            }
-          };
-        
-          const handleRiderSignup = () => {
-            if(!agreed) {
-                alert("Please complete all required fields.")
-              }
-            else{
-                navigate('/riderprofile');
-            }
-          };
+    const handleInputChange = (e) => {
+        const { name, value, type, checked } = e.target;
+        setFormData(prevState => ({
+            ...prevState,
+            [name]: type === 'checkbox' ? checked : value
+        }));
+    };
+
+    const handleDriverSignup = () => {
+        navigate('/driverprofile');
+    };
+
+    const handleRiderSignup = () => {
+        navigate('/riderprofile');
+    };
+
+    const roleCardStyle = {
+        ...sharedStyles.card,
+        textAlign: 'center',
+        padding: '40px',
+        cursor: 'pointer',
+        transition: 'all 0.3s ease',
+    };
 
     return (
-    <div className='Signup-container'>
-        <div className="SignUpPage-header">
-            <h1>Sign Up for Ride2Vote</h1>
-                <p>Please complete the following steps to sign up:</p>
-        
-        {/* Disclaimer */}
-        <section className="Disclaimer-section">
-          <h2>Disclaimer</h2>
-            <p>This Ride2Vote application is intended to facilitate transportation arrangements between willing users of the service. The application is not a transportation service provider, broker, or agent. It does not screen participating drivers or riders. Users are solely responsible for selecting the individuals with whom they travel. Users must make their own determinations as to the suitability of such individuals.
-                By using this application, you acknowledge and agree that you are participating in the activities for which you use this application voluntarily, and you are solely responsible for your own conduct and interactions with other users of the application. The application assumes no responsibility or liability for any acts or omissions by you or other users of the application.
-                This application makes no representations or warranties as to the conduct, compatibility, safety, or skill of users or their vehicles. You agree to take reasonable precautions in all interactions with other users, particularly if you decide to meet in person or use each other's vehicles. Your use of this application is at your own risk.
-                You agree to release and indemnify this application from any and all liability associated with your use of the application or participation in any Ride2Vote arrangement made through the application.
-            </p>
-          <label>
-            <input
-              type="checkbox"
-              onChange={(e) => setAgreed(e.target.checked)}
-            />
-            By checking here, you acknowledge and agree to the disclaimer above. **Required**
-          </label>
-        </section>
+        <div style={sharedStyles.pageContainer}>
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                style={sharedStyles.contentCard}
+            >
+                <h1 style={sharedStyles.pageTitle}>Join Ride2Vote</h1>
 
-        <section className="Role-section">
-             <h2> Role Selection</h2>
-            <div>
-                <button className="button driver-button" onClick={handleDriverSignup}>
-                    Driver Signup
-                </button>
-                <button className="button rider-button" onClick={handleRiderSignup}>
-                    Rider Signup
-                </button>
+                <div style={sharedStyles.section}>
+                    <h2 style={sharedStyles.sectionTitle}>Disclaimer</h2>
+                    <div style={sharedStyles.card}>
+                        <p style={{ marginBottom: '20px', lineHeight: '1.6' }}>
+                            By signing up, you acknowledge that this is a volunteer-based service.
+                            We do not guarantee rides and are not liable for any incidents that may occur.
+                        </p>
+                        <label style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                            <input
+                                type="checkbox"
+                                name="agreed"
+                                checked={formData.agreed}
+                                onChange={handleInputChange}
+                                style={{ width: '20px', height: '20px' }}
+                            />
+                            <span>I acknowledge and agree to the disclaimer above</span>
+                        </label>
+                    </div>
                 </div>
 
-        </section>
+                <div style={sharedStyles.section}>
+                    <h2 style={sharedStyles.sectionTitle}>Choose Your Role</h2>
+                    <div style={sharedStyles.grid}>
+                        <motion.div
+                            whileHover={{ transform: 'translateY(-8px)' }}
+                            style={roleCardStyle}
+                            onClick={handleDriverSignup}
+                        >
+                            <FaCar size={48} color="var(--primary-blue)" style={{ marginBottom: '20px' }} />
+                            <h3 style={{ marginBottom: '16px', color: 'var(--primary-blue)' }}>Driver</h3>
+                            <p>Help others exercise their right to vote by providing transportation</p>
+                        </motion.div>
 
+                        <motion.div
+                            whileHover={{ transform: 'translateY(-8px)' }}
+                            style={roleCardStyle}
+                            onClick={handleRiderSignup}
+                        >
+                            <FaUserFriends size={48} color="var(--primary-blue)" style={{ marginBottom: '20px' }} />
+                            <h3 style={{ marginBottom: '16px', color: 'var(--primary-blue)' }}>Rider</h3>
+                            <p>Get connected with volunteer drivers to reach your polling location</p>
+                        </motion.div>
+                    </div>
+                </div>
+            </motion.div>
         </div>
-    </div>
     );
-
 }
 
 export default ProfileForm;

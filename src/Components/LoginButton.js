@@ -1,18 +1,43 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import React from "react";
-import { Nav } from "react-bootstrap";
 
 const LoginButton = () => {
-  const { loginWithRedirect } = useAuth0();
+  const { loginWithRedirect, isLoading, error } = useAuth0();
+  
+  const loginStyle = {
+    background: 'var(--gradient-primary)',
+    border: 'none',
+    color: 'var(--pure-white)',
+    cursor: 'pointer',
+    padding: '8px 16px',
+    fontSize: '16px',
+    fontWeight: '500',
+    transition: 'all 0.3s ease',
+    borderRadius: '8px',
+  };
+
+  if (error) {
+    return <div>Authentication Error: {error.message}</div>;
+  }
+
+  if (isLoading) {
+    return (
+      <button style={loginStyle} disabled className="modern-button">
+        <span className="loading-pulse">Loading...</span>
+      </button>
+    );
+  }
+
   return (
-    <Nav.Link
-      onClick={() => loginWithRedirect()}
-      id="qsLoginBtn"
-      className="nav-item"
+    <button
+      onClick={() => loginWithRedirect({
+        appState: { returnTo: window.location.pathname }
+      })}
+      style={loginStyle}
+      className="modern-button"
     >
       Log In
-    </Nav.Link>
-
+    </button>
   );
 };
 
