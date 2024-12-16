@@ -142,7 +142,7 @@ Introducing the minds behind Ride2Vote's mission!
    </p>
 <div align="center">
 
-<p align="right"><a href="#readme-top">↑ Back to Top ↑</a></p>
+
 
 
 *<p align="left">Ride2Vote: Empowering every voice, one ride at a time.</p>*
