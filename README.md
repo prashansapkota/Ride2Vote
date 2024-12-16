@@ -97,9 +97,11 @@ Our team put in significant effort to create Ride2Vote, a platform that connects
 
 We’re incredibly proud of what we’ve built and excited about the potential for Ride2Vote to help increase voter turnout and ensure access to the polls for everyone.
 
+---
 ## What We Learned 📚
 Throughout the development of Ride2Vote, we learned that creating an web app that serves both logistical needs and fosters trust between users requires a thoughtful and secure approach. From user verification to ride matching and accessibility features, each challenge provided valuable lessons on how to create a comprehensive platform that truly meets the needs of voters and volunteer drivers.
 
+---
 ## What’s Next for Ride2Vote 🚀
 Moving forward, we plan to implement a backend system that will handle user authentication, ride requests, and communication between drivers and riders. Additionally, we’ll work on enhancing the verification system with more robust ID checks and enable a real-time chat feature for better interaction between users. We’ll also be looking to integrate a mapping system to better facilitate ride matching and tracking.
 
