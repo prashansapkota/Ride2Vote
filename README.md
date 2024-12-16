@@ -1,7 +1,6 @@
 # Ride2Vote
 
 Ride2Vote is a web application designed to strengthen voting by ensuring everyone has access to their polling location. We connect voters who need transportation with volunteer drivers in their community.
-
 ![Ride2Vote Logo](Ride2Vote.jpeg)
 
 ---
