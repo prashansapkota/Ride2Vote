@@ -1,79 +1,55 @@
 # Ride2Vote
 
-Ride2Vote is a web application designed to strengthen democracy by ensuring everyone has access to their polling location. We connect voters who need transportation with volunteer drivers in their community.
+Ride2Vote is a web application designed to strengthen voting by ensuring everyone has access to their polling location. We connect voters who need transportation with volunteer drivers in their community.
 
 ![Ride2Vote Logo](Ride2Vote.jpeg)
 
 ## Inspiration
 
-The inspiration for ECo-nnect came from a simple yet powerful moment. One day, while shopping with a friend, I noticed his hesitation in choosing a product. As someone passionate about sustainability, I shared how small choices—like picking eco-friendly products or reducing waste—can significantly impact the environment in the long run. Despite my enthusiasm, I realized that word-of-mouth alone wouldn’t inspire lasting change.
+In 2020, we met Sarah, an elderly voter from rural Georgia. Despite her unwavering desire to participate in voting, she faced a significant challenge: living 15 miles from her polling station with no transportation options. Her story isn't unique – millions of Americans face similar barriers to voting.
 
-That’s when it hit: What if sustainability were easy and accessible to all? Thus began ECo-nnect—a platform that would empower users to make informed, eco-friendly decisions in everyday life. From product scanning for sustainability insights to offering ideas for repurposing discarded items, ECo-nnect strives to make every choice count.
+That's when Ride2Vote was born.
+
+What started as a small group of volunteers offering rides to local polling stations has evolved into a nationwide movement. Today, Ride2Vote connects thousands of volunteer drivers with voters who need transportation, ensuring that distance never stands between a citizen and their right to vote.
 
 ## What it Does
+Ride2Vote connects voters who need rides to polling stations with volunteer drivers in their community, making democratic participation accessible to everyone.
 
-ECo-nnect offers a platform that makes sustainable living simple and impactful. It provides users with the tools and knowledge to make conscious, eco-friendly choices in their everyday routines. 
+### For Voters
+- **Easy Ride Requests**: Simple form to request transportation to polling locations
+- **Accessibility Options**: Specify special needs like wheelchair access or assistance
+- **Flexible Scheduling**: Choose your preferred voting time
+- **Real-time Updates**: Stay informed about your ride status
 
-### Key Features:
-- **Eco Shopping Assistant**: Scan products for detailed sustainability information and discover eco-friendly alternatives.
-- **DIY Repurposing Ideas**: Access creative ways to repurpose items, share projects, and earn rewards as part of a no-waste community.
-- **Health Integration**: Upload health reports to receive personalized sustainable shopping recommendations that also benefit your well-being.
+### For Volunteer Drivers
+- **Driver Registration**: Quick sign-up process with vehicle and availability details
+- **Ride Management**: Accept and manage ride requests
+- **Impact Tracking**: Monitor your contribution through the leaderboard
+- **Accessibility Specifications**: Indicate the types of assistance you can provide
 
-ECo-nnect is your companion in making eco-conscious decisions that contribute to a greener future, one small action at a time.
+### Platform Features
+- **Interactive Dashboard**: Clean, user-friendly interface
+- **Leaderboard System**: Recognition for active volunteer drivers
+- **Quiz Section**: Educational content about voting rights and procedures
+- **Secure Authentication**: Protected user data and privacy
+- **Responsive Design**: Seamless experience across all devices
 
-## How We Built It
+## How We Built It 🚀
 
-ECo-nnect was developed using a modern tech stack, emphasizing scalability, performance, and user experience.
+We developed **Ride2Vote** using **React.js** for a dynamic, responsive frontend, ensuring an easy-to-use interface for both voters and volunteer drivers. **React Router DOM** handled navigation, while **Framer Motion** added smooth animations for a polished experience. We used **React Icons** and **custom CSS** to keep the design modern and accessible.
 
-### Technical Architecture
+For secure user authentication, we integrated **Auth0**, allowing both riders and drivers to register and log in easily. Drivers can register their vehicle info, specify accessibility preferences, and track their impact through a **leaderboard system**. Riders can quickly request rides and customize their preferences, with **real-time driver matching**.
 
-#### Frontend Technologies
-- **Next.js 14**: For building a performant, server-side rendered React application.
-- **TailwindCSS**: For responsive, utility-first styling with dark mode support.
-- **Framer Motion**: For smooth, professional animations and transitions.
-- **Heroicons**: For consistent, accessible iconography.
-- **Next Auth**: For secure authentication and session management.
+We also built an interactive **Voting Knowledge Quiz** to educate users about the election process and boost engagement.
 
-#### Backend Services
-- **Python Backend**: Custom backend service for data processing and analysis.
-- **Google Gemini AI**: For advanced image analysis and content generation.
-- **Tavily API**: For real-time contextual information gathering.
-- **Firebase**: For secure data storage and real-time updates.
+### Tech Stack 🛠️
+- **Frontend**: React.js, React Router DOM, Framer Motion, React Icons, Custom CSS
+- **Authentication**: Auth0
+- **Real-Time Chat**: WebSockets
+- **Backend**: Firebase
+- **Deployment**: Netlify
 
-### Key Features Implementation
-
-#### Food Analysis System
-- Real-time image capture using the Web Camera API.
-- Custom image processing pipeline for food recognition.
-- Integrated health report analysis for personalized recommendations.
-- Support for both file upload and direct camera capture.
-
-#### Health Integration
-- Secure health report upload and storage system.
-- Medical condition tracking with support for various ailments.
-- Personalized eco-friendly product recommendations based on health data.
-- HIPAA-compliant data handling and storage.
-
-#### User Experience
-- Responsive design that works across all device sizes.
-- Dark mode support for better accessibility.
-- Progressive Web App (PWA) capabilities for offline access.
-- Error boundary implementation for graceful error handling.
-
-### Development Practices
-- **Component-based architecture**: Ensures maintainable and reusable code.
-- **CSS Modules and Tailwind**: For scoped and efficient styling.
-- **Environment-based configuration management**: Simplifies deployment across environments.
-- **Git-based version control**: Ensures structured development and collaboration.
-
-### Security Measures
-- **JWT-based authentication**: Ensures secure user sessions.
-- **Secure environment variable management**: Protects sensitive data.
-- **Protected API routes**: Limits unauthorized access.
-- **Input validation and sanitization**: Prevents security vulnerabilities.
-- **CORS policy implementation**: Ensures safe cross-origin resource sharing.
-
-ECo-nnect is built with scalability in mind, allowing for future feature additions while maintaining performance and security standards.
+This tech stack helped us create a seamless platform that connects voters with volunteer drivers, ensuring access to polling stations and empowering young voters nationwide.
 
 ---
 ## Challenges We Ran Into
