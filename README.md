@@ -111,6 +111,7 @@ Moving forward, we plan to implement a backend system that will handle user auth
 
 Introducing the minds behind Ride2Vote's mission for a sustainable future!
 
+<p align="right"><a href="#readme-top">↑ Back to Top ↑</a></p>
 **<p align="center">Aastika Banstola</p>**
    <p align="center">
      <img src="AastikaBHeadshot.png" alt="Aastika Banstola's Picture" width="250">
@@ -126,7 +127,7 @@ Introducing the minds behind Ride2Vote's mission for a sustainable future!
 
 <div align="center">
 
-<p align="right"><a href="#readme-top">↑ Back to Top ↑</a></p>
+
 **<p align="center">Prashan Sapkota</p>**
    <p align="center">
      <img src="PrashanHeadshot.png" alt="Prashan Sapkota's Picture" width="250">
