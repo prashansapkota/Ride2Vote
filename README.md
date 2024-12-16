@@ -4,6 +4,7 @@ Ride2Vote is a web application designed to strengthen voting by ensuring everyon
 
 ![Ride2Vote Logo](Ride2Vote.jpeg)
 
+---
 ## Inspiration
 
 In 2020, we met Sarah, an elderly voter from rural Georgia. Despite her unwavering desire to participate in voting, she faced a significant challenge: living 15 miles from her polling station with no transportation options. Her story isn't unique – millions of Americans face similar barriers to voting.
@@ -12,6 +13,7 @@ That's when Ride2Vote was born.
 
 What started as a small group of volunteers offering rides to local polling stations has evolved into a nationwide movement. Today, Ride2Vote connects thousands of volunteer drivers with voters who need transportation, ensuring that distance never stands between a citizen and their right to vote.
 
+---
 ## What it Does
 Ride2Vote connects voters who need rides to polling stations with volunteer drivers in their community, making democratic participation accessible to everyone.
 
@@ -34,6 +36,7 @@ Ride2Vote connects voters who need rides to polling stations with volunteer driv
 - **Secure Authentication**: Protected user data and privacy
 - **Responsive Design**: Seamless experience across all devices
 
+---
 ## How We Built It 🚀
 
 We developed **Ride2Vote** using **React.js** for a dynamic, responsive frontend, ensuring an easy-to-use interface for both voters and volunteer drivers. **React Router DOM** handled navigation, while **Framer Motion** added smooth animations for a polished experience. We used **React Icons** and **custom CSS** to keep the design modern and accessible.
@@ -63,6 +66,8 @@ During development, we encountered a few challenges that helped refine our appro
 
 These challenges drove us to innovate and deliver a solid, user-centric platform.
 
+---
+
 ## Accomplishments We're Proud Of
 
 We are proud to have built ECo-nnect, a platform that:
@@ -74,6 +79,8 @@ We are proud to have built ECo-nnect, a platform that:
 
 ECo-nnect is helping create a more eco-friendly future for everyone.
 
+---
+
 ## What We Learned
 
 Through the development of ECo-nnect, we learned that:
@@ -81,6 +88,8 @@ Through the development of ECo-nnect, we learned that:
 - Sustainability is not just about eco-friendly products, but about creating a balanced lifestyle that nurtures both personal health and the environment.
 - Even the smallest, repetitive actions, when combined, can result in huge, collective impact.
 - Empowering individuals with the right tools and knowledge can lead to meaningful change and a better future for the planet.
+
+---
 
 ## What's Next for ECo-nnect
 
