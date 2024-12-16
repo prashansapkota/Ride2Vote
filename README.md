@@ -7,11 +7,11 @@ Ride2Vote is a web application designed to strengthen voting by ensuring everyon
 ---
 ## Inspiration
 
-In 2020, we met Sarah, an elderly voter from rural Georgia. Despite her unwavering desire to participate in voting, she faced a significant challenge: living 15 miles from her polling station with no transportation options. Her story isn't unique – millions of Americans face similar barriers to voting.
+During the presidential election of 2024, our friend Alex, a driven college student who was ready to cast their first vote. But Alex lived miles away from the nearest polling station, with no access to reliable transportation. For Alex, and millions of young voters like them, the simple act of voting becomes an uphill battle due to transportation barriers.
 
-That's when Ride2Vote was born.
+This is why Ride2Vote was born.
 
-What started as a small group of volunteers offering rides to local polling stations has evolved into a nationwide movement. Today, Ride2Vote connects thousands of volunteer drivers with voters who need transportation, ensuring that distance never stands between a citizen and their right to vote.
+It's no longer just an idea but a movement that started as an effort to bridge that gap with young voters. Ride2Vote connects passionate volunteers to young voters who need a ride so that nobody silences their voice based on distance. We believe giving them the means to reach the polls empowers our youth, and we provide the ride that drives democracy toward assurance that every young voice will shape the future.
 
 ---
 ## What it Does
