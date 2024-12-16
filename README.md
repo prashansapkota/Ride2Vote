@@ -113,7 +113,7 @@ Introducing the minds behind Ride2Vote's mission for a sustainable future!
 
 **<p align="center">Aastika Banstola</p>**
    <p align="center">
-     <img src="AastikaHeadshot.png" alt="Aastika Banstola's Picture" width="250">
+     <img src="AastikaHeadshot.jpg" alt="Aastika Banstola's Picture" width="250">
    </p>
    <p align="center">
      <a href="https://www.linkedin.com/in/aastika-/">
@@ -129,17 +129,17 @@ Introducing the minds behind Ride2Vote's mission for a sustainable future!
 <p align="right"><a href="#readme-top">↑ Back to Top ↑</a></p>
 **<p align="center">Prashan Sapkota</p>**
    <p align="center">
-     <img src="NisharHeadshot.png" alt="Ahamad Mamun Nishar Miya's Picture" width="250">
+     <img src="PrashanHeadshot.JPEG" alt="Prashan Sapkota's Picture" width="250">
    </p>
    <p align="center">
-     <a href="https://www.linkedin.com/in/nishar-miya/">
+     <a href="https://www.linkedin.com/in/prashansapkota/">
        <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
      </a>
-     <a href="https://github.com/miyannishar">
+     <a href="https://github.com/prashansapkota">
        <img src="https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github" alt="GitHub">
      </a>
    </p>
 
 
 
-*<p align="left">Empowering eco-friendly choices for a greener tomorrow.</p>*
+*<p align="left">Ride2Vote: Empowering every voice, one ride at a time.</p>*
