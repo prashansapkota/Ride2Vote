@@ -113,7 +113,7 @@ Introducing the minds behind Ride2Vote's mission for a sustainable future!
 
 **<p align="center">Aastika Banstola</p>**
    <p align="center">
-     <img src="AastikaHeadshot.jpg" alt="Aastika Banstola's Picture" width="250">
+     <img src="AastikaBHeadshot.png" alt="Aastika Banstola's Picture" width="250">
    </p>
    <p align="center">
      <a href="https://www.linkedin.com/in/aastika-/">
@@ -129,7 +129,7 @@ Introducing the minds behind Ride2Vote's mission for a sustainable future!
 <p align="right"><a href="#readme-top">↑ Back to Top ↑</a></p>
 **<p align="center">Prashan Sapkota</p>**
    <p align="center">
-     <img src="PrashanHeadshot.JPEG" alt="Prashan Sapkota's Picture" width="250">
+     <img src="PrashanHeadshot.png" alt="Prashan Sapkota's Picture" width="250">
    </p>
    <p align="center">
      <a href="https://www.linkedin.com/in/prashansapkota/">
