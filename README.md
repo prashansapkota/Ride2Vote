@@ -60,7 +60,7 @@ This tech stack helped us create a seamless platform that connects voters with v
 ### Key Technical Challenges
 - Implementing Auth0 authentication while maintaining a seamless guest access option
 - Managing complex state across multiple forms and user interactions
-- Creating a responsive design that works smoothly on both mobile and desktop
+- Creating a responsive design that works smoothly 
 
 ### Design & UX Challenges
 - Balancing the need for user information with form simplicity in driver registration
