@@ -57,22 +57,20 @@ This tech stack helped us create a seamless platform that connects voters with v
 ---
 ## Challenges We Ran Into 🚧
 
-As we focused on building Ride2Vote, our goal was to ensure a smooth, secure, and user-friendly experience for both voters and volunteer drivers. We faced several key challenges along the way, and we addressed them with thoughtful solutions.
+### Key Technical Challenges
+- Implementing Auth0 authentication while maintaining a seamless guest access option
+- Managing complex state across multiple forms and user interactions
+- Creating a responsive design that works smoothly on both mobile and desktop
 
-### Ensuring Safety and Trust
-One of the primary challenges was ensuring the safety of both riders and drivers. To foster trust between users, we focused on providing secure communication channels and clear expectations for both parties.
+### Design & UX Challenges
+- Balancing the need for user information with form simplicity in driver registration
+- Designing an intuitive navigation system for both riders and drivers
+- Creating engaging visual feedback for the quiz and leaderboard components
 
-- **Driver Verification**: We laid the groundwork for future verification processes, including ID checks and vehicle verification, to ensure drivers are who they claim to be.
-  
-- **Incident Reporting**: We integrated a reporting system that allows both riders and drivers to report any concerns or issues during their rides. This feature is designed to help us quickly address problems and maintain a safe environment for everyone.
-
-### Building Trust and Encouraging Engagement
-- **Rating and Review System**: Riders and drivers can leave ratings and reviews after each ride, helping to build a community of trust. Positive feedback earns badges and rewards, while negative reviews will be carefully reviewed to ensure continuous improvement.
-  
-- **Accessibility Features**: Ensuring that our platform is accessible to users with different needs was another challenge. We implemented a range of accessibility features, including clear fonts, voice integration, and easy-to-use forms to cater to all users.
-
-Despite these challenges, we’ve built a platform that prioritizes safety, accessibility, and community trust, ensuring that voters have a reliable way to get to the polls.
-
+### Integration Challenges
+- Coordinating the interaction between rider requests and driver profiles
+- Setting up proper routing with protected and public routes
+- Implementing real-time updates for the leaderboard system
 
 ---
 
