@@ -11,7 +11,7 @@ During the presidential election of 2024, our friend Alex, a driven college stud
 
 This is why Ride2Vote was born.
 
-It's no longer just an idea but a movement that started as an effort to bridge that gap with young voters. Ride2Vote connects passionate volunteers to young voters who need a ride so that nobody silences their voice based on distance. We believe giving them the means to reach the polls empowers our youth, and we provide the ride that drives democracy toward assurance that every young voice will shape the future.
+It's no longer just an idea but a movement that started as an effort to bridge that gap with young voters. Ride2Vote connects passionate volunteers to young voters who need a ride so that nobody silences their voice based on distance. We believe giving them the means to reach the polls empowers our youth, and de provide the ride that drives civic engagement toward assurance that every young voice will shape the future.
 
 ---
 ## What it Does
